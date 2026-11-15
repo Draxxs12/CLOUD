@@ -9,7 +9,7 @@ import { appsettings } from '../Settings/appsettings';
 @Injectable({ providedIn: 'root' })
 export class ClienteService {
 
-  private url = 'http://localhost:8080/api/clientes';
+    private url = 'https://cloud1-production-f823d014.up.railway.app/api/clientes';
 
   constructor(private http: HttpClient) {}
 

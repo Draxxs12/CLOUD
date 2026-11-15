@@ -5,7 +5,7 @@ import { Proveedor } from '../Models/Proveedor';
 
 @Injectable({ providedIn: 'root' })
 export class ProveedorService {
-  private url = 'http://localhost:8080/api/proveedores';
+    private url = 'https://cloud1-production-f823d014.up.railway.app/api/proveedores';
 
   constructor(private http: HttpClient) {}
 

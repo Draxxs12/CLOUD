@@ -5,7 +5,7 @@ import { Compra } from '../Models/Compra';
 
 @Injectable({ providedIn: 'root' })
 export class CompraService {
-  private url = 'http://localhost:8080/api/compras';
+    private url = 'https://cloud1-production-f823d014.up.railway.app/api/compras';
 
   constructor(private http: HttpClient) {}
 

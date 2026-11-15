@@ -8,7 +8,7 @@ import { appsettings } from '../Settings/appsettings';
 })
 export class ProductoService {
  
-  private apiUrl = 'http://localhost:8080/api/productos';
+    private apiUrl = 'https://cloud1-production-f823d014.up.railway.app/api/productos';
  
   constructor(private http: HttpClient) {}
  

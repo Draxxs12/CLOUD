@@ -1,3 +1,3 @@
 export const appsettings = {
-    apiUrl: 'http://localhost:8080/api'
+    apiUrl: 'https://cloud1-production-f823d014.up.railway.app/api'
 };
